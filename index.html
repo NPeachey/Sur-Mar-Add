@@ -5,28 +5,38 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>form-letter</title>
+    <title>Survey</title>
   </head>
 
   <body>
+    <div id="page">
+      <label for="person1">Your Name:</label>
+      <input id="person1" class="form-control" type="text">
 
-        <select class="form-control" id="beverage">
-          <option>Pick your drink!</option>
-          <option>Coffee</option>
-          <option>Tea</option>
-          <option>Kombucha</option>
-          <option>Water</option>
-        </select>
-
-      <div id="result">
-        <p>Wow, <span class="drinkresult"></span>? That's gross.</p>
-      </div>
-
-      <button id="survey" type="button" class="btn">Confirm your choice</button>
+          <select class="form-control" id="beverage">
+            <option>Pick your drink!</option>
+            <option>Coffee</option>
+            <option>Tea</option>
+            <option>Kombucha</option>
+            <option>Water</option>
+          </select>
 
 
 
-      
+          <button id="survey" type="button" class="btn">Confirm your choice</button>
+
+
+
+    </div>
+    <div id="result">
+      <p>Thanks For Your Feedback</p>
+    </div>
+
+
+
+
+
+
   </body>
 
 </html>
